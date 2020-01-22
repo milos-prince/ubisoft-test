@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import ubisoft from '../images/ubisoft.png'
 import xbox from '../images/xbox.png'
@@ -7,6 +6,10 @@ import pc from '../images/PC.png'
 import esrb from '../images/esrb.png'
 import m from '../images/m.png'
 
+
+
+  
+ 
 
 const Header = () => (
   <header>

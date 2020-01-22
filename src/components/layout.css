@@ -17,12 +17,29 @@ body {
 .setMaxWidth{
   max-width: 961px;
 }
+.col{
+  flex-direction: column;
+}
 .d-flex{
   display:flex;
 }
-
+.w-33{
+  width:33.3%;
+  
+}
+.w-66{
+  width:66.6%;
+}
+.w-100{
+  width: 100%;
+}
 * {
   color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-red{
+  background:#891016;
 }
 /*Header section*/
 .logoSection{
@@ -54,6 +71,9 @@ margin-left:25px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Didact Gothic';
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.004);
 }
 .navItem:hover{
   color:#891016;
@@ -64,12 +84,76 @@ margin-left:25px;
 }
 
 /*body*/
-.siteWrapper{
-  min-height:1120px;
+.bodyWrapper{
+  min-height:875px;
   width:100%;
   background-size: cover;
   padding-top:20px;
 }
+.heroBG{
+  background-image: url(../images/hero1.jpg);
+  background-size:cover;
+  width: 100%;
+  height:455px;
+}
+.heroSelector{
+  border:2px solid #891016;
+  background: black;
+  padding: 10px 0px;
+  margin:10px;
+  align-self: flex-end;
+}
+
+.feedWrapper{
+  height:360px;
+  padding-top:10px;
+}
+.feedL{
+  margin-right:5px;
+}
+.feedR{
+  margin-left:5px;
+}
+.feedL, .feedR{
+  background: black;
+}
+.feedHeading h3{
+  margin-top:0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+    padding:10px;
+}
+.post{
+  height:90px;
+  margin:10px;
+}
+.postPic{
+  height:90px;
+}
+.postTextSmall{
+  width:50%;
+  margin:0px 10px;
+  line-height: 1.2;
+}
+.postTextLarge{
+  width:75%;
+  margin:0px 15px;
+  line-height: 1.2;
+}
+.postHeading{
+    color:#cd1821;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin:0px 0px 5px 0px;
+}
+.postContent{
+  margin:0px;
+    font-size: 11px; 
+}
+
 
 /*footer*/
 .footerLogos{
@@ -89,9 +173,10 @@ margin-left:25px;
 ul {
   list-style: none;
   margin:0px;
-  padding:10px;
+  padding:12px;
   font-size:12px;
 }
 .footerTrademark p{
-  font-size:10pt;
+  font-size: 9px;
+  line-height: 1.2;
 }
