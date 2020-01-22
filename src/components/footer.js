@@ -3,7 +3,7 @@ import React from "react"
 import ubisoft from '../images/ubisoft.png'
 import xbox from '../images/xbox.png'
 import ps3 from '../images/ps3.png'
-import pc from '../images/pc.png'
+import pc from '../images/PC.png'
 import esrb from '../images/esrb.png'
 import m from '../images/m.png'
 
