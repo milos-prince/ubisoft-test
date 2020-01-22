@@ -91,17 +91,32 @@ margin-left:25px;
   padding-top:20px;
 }
 .heroBG{
-  background-image: url(../images/hero1.jpg);
+  background-image: url(../images/hero1.jpg),url(../images/hero2.jpg),url(../images/hero3.jpg);
   background-size:cover;
   width: 100%;
   height:455px;
 }
+#hero2{
+  z-index:-1;
+position: relative;
+}
+#hero3{
+  z-index:-2;
+  position: relative;
+  }
 .heroSelector{
   border:2px solid #891016;
   background: black;
-  padding: 10px 0px;
-  margin:10px;
+  margin:20px;
   align-self: flex-end;
+}
+.selectorWrapper{
+  padding: 10px 0px;
+}
+.selectorWrapper:hover{
+  background:rgba(255, 255, 255, 0.1);
+  height:100%;
+  cursor: pointer;
 }
 
 .feedWrapper{
